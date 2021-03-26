@@ -24,12 +24,12 @@ jobs:
         with:
           node-version: 14
       - name: Install Dependendencies
-        run: npm install
+        run: yarn install
       - name: Build, configure git and push to gh-pages
         run: |
           #!/bin/bash
           git clone "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" out -b gh-pages
-          npm run build
+          yarn build
           #cp CNAME out/ -- Only add when I have a domain
           cp README.md out/
           rsync -vau build out/
