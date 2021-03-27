@@ -34,7 +34,7 @@ function App() {
         </a>&nbsp;|&nbsp; 
         <a
           className="Webring-link"
-          href="https://stephenvk.xyz/ring/"
+          href="https://oscie.tk/"
           target="_blank"
           rel="noopener noreferrer"
           >
