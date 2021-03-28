@@ -10,7 +10,6 @@ function Ring() {
         <a
           className="Webring-link"
           href="https://stephenvk.xyz"
-          target="_blank"
           rel="noopener noreferrer"
           >
          ⬅️ Prev
@@ -18,7 +17,6 @@ function Ring() {
         <a
           className="Webring-link"
           href="https://stephenvk.xyz/ring/"
-          target="_blank"
           rel="noopener noreferrer"
           >
           All
@@ -26,7 +24,6 @@ function Ring() {
         <a
           className="Webring-link"
           href="https://oscie.tk/"
-          target="_blank"
           rel="noopener noreferrer"
           >
           Next ➡️

@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <body className="App-header">
+      <head className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>
           Hello 👋 I am Panos,
@@ -12,7 +12,7 @@ function App() {
         <h4>
           But you can call me Devnol
         </h4>
-      </body>
+      </head>
     </div>
   );
 }
