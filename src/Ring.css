@@ -7,5 +7,6 @@
   
 .Webring-link, .Webring-text {
     padding: 1vh;
+    margin: 0;
     text-decoration: none;
 }
