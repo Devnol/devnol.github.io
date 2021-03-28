@@ -22,11 +22,6 @@
   color: white;
 }
 
-.App-link, .Webring-link {
+.App-link {
   color: var(--primary-color);
-}
-
-.Webring-link, .Webring-text {
-  padding: 1vh;
-  text-decoration: none;
 }
