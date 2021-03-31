@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
@@ -12,7 +13,15 @@ const theme = createMuiTheme({
   },
 });
 
+
 function App() {
+  const info = {
+    whoIAm: <p> I am panos </p>,
+    whatIDo: <p> I do devlop </p>,
+    contactMe: <p> No dont </p>,
+  }
+  const [infoContent, changeInfo] = useState();
+
   return (
     <div className="App">
       <head className="App-header">
@@ -23,13 +32,16 @@ function App() {
         <h4>
           But you can call me Devnol
         </h4>
-      <ThemeProvider theme={theme}>
         <div className="buttonArray">
-          <Button variant="contained" color="primary"> Who I am </Button>
-          <Button variant="contained" color="primary"> What I do </Button>
-          <Button variant="contained" color="primary"> Contact Me </Button>
+          <ThemeProvider theme={theme}>
+          <Button variant="contained" color="primary" onClick={() => changeInfo(info.whoIAm)}> Who I am </Button>
+          <Button variant="contained" color="primary" onClick={() => changeInfo(info.whatIDo)}> What I do </Button>
+          <Button variant="contained" color="primary" onClick={() => changeInfo(info.contactMe)}> Contact Me </Button>
+          </ThemeProvider>
         </div>
-      </ThemeProvider>
+        <div className="info">
+          {infoContent}
+        </div>
       </head>
     </div>
   );
