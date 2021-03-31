@@ -1,6 +1,6 @@
 import './Ring.css';
 
-function Ring() {
+function Ring(props) {
   return(
     <div className="Ring">
 
@@ -9,7 +9,7 @@ function Ring() {
       <p className="Webring-text">
         <a
           className="Webring-link"
-          href="https://stephenvk.xyz"
+          href={props.prevLink}
           rel="noopener noreferrer"
           >
          ⬅️ Prev
@@ -23,7 +23,7 @@ function Ring() {
         </a>&nbsp;|&nbsp; 
         <a
           className="Webring-link"
-          href="https://oscie.tk/"
+          href={props.nextLink}
           rel="noopener noreferrer"
           >
           Next ➡️
