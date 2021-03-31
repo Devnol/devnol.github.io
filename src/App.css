@@ -25,3 +25,10 @@
 .App-link {
   color: var(--primary-color);
 }
+
+.buttonArray > button {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Comfortaa";
+  text-transform: none;
+}
