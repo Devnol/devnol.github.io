@@ -3,8 +3,6 @@ import './Ring.css';
 function Ring(props) {
   return(
     <div className="Ring">
-
-    <footer>
       <p className="Webring-text">Proud Member of the Zoomer Hacking webring</p>
       <p className="Webring-text">
         <a
@@ -29,7 +27,6 @@ function Ring(props) {
           Next ➡️
         </a> 
       </p>
-    </footer>
     </div>
   );
 }

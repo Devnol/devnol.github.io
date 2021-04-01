@@ -8,7 +8,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Ring prevLink="https://stephenvk.xyz" nextLink="https://oscie.tk/"/>
+    <footer>
+      <Ring prevLink="https://stephenvk.xyz" nextLink="https://oscie.tk/"/>
+    </footer>
   </React.StrictMode>,
   document.getElementById('root')
 );
