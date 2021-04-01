@@ -10,6 +10,9 @@ ReactDOM.render(
     <App />
     <footer>
       <Ring prevLink="https://stephenvk.xyz" nextLink="https://oscie.tk/"/>
+      <p className="ossNotice">
+        Made by Devnol with ❤️, ReactJS and GitHub pages. This site is open source, <a href="https://github.com/Devnol/devnol.github.io/" className="App-link">help improve it on GitHub</a>
+      </p>
     </footer>
   </React.StrictMode>,
   document.getElementById('root')

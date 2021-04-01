@@ -28,5 +28,15 @@ h3 {
 
 footer {
   background-color: var(--background-color-lighter);
+  margin-bottom: 0;
+  width: 100%;
   color: white;
+}
+
+.ossNotice {
+  font-size: 1.5vh;
+  margin: 0 0;
+  padding-bottom: 1vh;
+  padding-right: 1vh;
+  text-align: right; 
 }
