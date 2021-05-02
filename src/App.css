@@ -38,7 +38,7 @@
   margin-right: 20vw;
   text-align: left;
   opacity: 0;
-  padding-top: 15vh;
+  padding-top: 5vh;
 }
 #Info > p {
   margin: 0;
@@ -63,7 +63,7 @@
 @keyframes infoMove {
     from {
       opacity: 0;
-      padding-top: 15vh;
+      padding-top: 5vh;
     }
     to {
       opacity: 1;
