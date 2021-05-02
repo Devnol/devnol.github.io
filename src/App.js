@@ -36,9 +36,15 @@ function App() {
           But you can call me Devnol
         </h4>
         <div className="buttonArray">
-          <Button variant="contained" onClick={() => {changeInfo(whoIAm);}}> Who I am </Button>
-          <Button variant="contained" onClick={() => {changeInfo(whatIDo);}}> What I do </Button>
-          <Button variant="contained" onClick={() => {changeInfo(contactMe);}}> Contact Me </Button>
+          <Button variant="contained" onClick={() => {changeInfo(whoIAm);document.getElementById("Info").classList.remove("anim");setTimeout(() => {
+             document.getElementById("Info").classList.add("anim");
+          }, 100);}}> Who I am </Button>
+          <Button variant="contained" onClick={() => {changeInfo(whatIDo);document.getElementById("Info").classList.remove("anim");setTimeout(() => {
+             document.getElementById("Info").classList.add("anim");
+          }, 100);}}> What I do </Button>
+          <Button variant="contained" onClick={() => {changeInfo(contactMe);document.getElementById("Info").classList.remove("anim");setTimeout(() => {
+             document.getElementById("Info").classList.add("anim");
+          }, 100);}}> Contact Me </Button>
         </div>
         {info}
     </div>
