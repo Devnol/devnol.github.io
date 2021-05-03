@@ -2,16 +2,18 @@ import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
+const YoB = 2007;
+const currAge = new Date().getFullYear() - YoB;
 
 const whoIAm = 
-  <div id="Info">
-    <p>I am a 14 year old student, born and raised in Greece.</p>
-    <p> I always had an attraction to computers and loved learning about new technologies and innovations and playing around with both software and hardware.</p>
+  <div id="Info" class="anim">
+    <p>I am a {currAge} year old student, born and raised in Greece.</p>
+    <p> I always liked  computers and loved learning about new technologies and playing around with both software and hardware.</p>
     <p> I'm a member of the <a href="https://hackropolis.club" className="App-link">Hackropolis</a> club, part of <a href="https://hackclub.com" className="App-link">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.</p>
   </div>;
 
 const whatIDo = 
-  <div id="Info">
+  <div id="Info" class="anim">
     <p>I enjoy coding and learning something new every day.</p>
     <p>In the past, I have created several projects using several technologies such as games with Unity, hardware automations with Raspberry Pi and Arduino and bots for Discord using Discord.js. I don't like staying on one thing for long though so I haven't created any large projects as of now, though I'd love to make something of a larger scale.</p>
     <p>Another thing I like is designing hardware as well as soldering or prototyping circuits.</p>
@@ -19,13 +21,14 @@ const whatIDo =
   </div>;
 
 const contactMe = 
-  <div id="Info">
+  <div id="Info" class="anim">
     <a href="https://github.com/Devnol/" className="App-link">My GitHub</a>
   </div>;
 
 
+
 function App() {
-  const [info, changeInfo] = useState(<div id="Info"></div>);
+  const [info, changeInfo] = useState(<div id="Info" class="anim"></div>);
   return (
     <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
