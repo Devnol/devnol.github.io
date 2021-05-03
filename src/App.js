@@ -2,8 +2,7 @@ import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
 import Button from '@material-ui/core/Button';
-const YoB = 2007;
-const currAge = new Date().getFullYear() - YoB;
+const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is the year of births
 
 const whoIAm = 
   <div id="Info" class="anim">
@@ -14,18 +13,15 @@ const whoIAm =
 
 const whatIDo = 
   <div id="Info" class="anim">
-    <p>I enjoy coding and learning something new every day.</p>
-    <p>In the past, I have created several projects using several technologies such as games with Unity, hardware automations with Raspberry Pi and Arduino and bots for Discord using Discord.js. I don't like staying on one thing for long though so I haven't created any large projects as of now, though I'd love to make something of a larger scale.</p>
-    <p>Another thing I like is designing hardware as well as soldering or prototyping circuits.</p>
-    <p>I like gaming but I'm pretty bad at it so I don't play games often. When I do however, I prefer retro classics rather than modern triple-A titles because I prefer their art style and simplicity.</p>
+    <p>I enjoy coding and learning new languages and tools on every new project.</p>
+    <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with React, scripts with Python and Discord bots in JavaScript</p>
+    <p>I also like hardware engineering, playing with Arduinos and Raspberry Pis and designing Circuit Boards with KiCad</p>
   </div>;
 
 const contactMe = 
   <div id="Info" class="anim">
     <a href="https://github.com/Devnol/" className="App-link">My GitHub</a>
   </div>;
-
-
 
 function App() {
   const [info, changeInfo] = useState(<div id="Info" class="anim"></div>);
