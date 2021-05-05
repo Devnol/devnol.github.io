@@ -1,0 +1,20 @@
+.SocialButton {
+    background-color: var(--background-color-lighter);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 8px;
+    margin: 1vw;
+}
+
+.SocialButton > a > img {
+    padding: 1vh;
+}
+
+@media (min-width: 1600mm) {
+    .SocialButton {
+      width: 10vh;
+      height: 10vh;
+      border-radius: 16px;
+      margin: 0.5vw;
+    }
+  }

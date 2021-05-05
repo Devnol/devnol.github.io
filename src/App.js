@@ -1,8 +1,17 @@
 import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
+import Social from './Social'
 import Button from '@material-ui/core/Button';
-const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is the year of births
+
+import github from './icons/github.svg'
+import twitter from './icons/twitter.svg'
+import hackclub from './icons/hackclub.svg'
+import youtube from './icons/youtube.svg'
+import discord from './icons/discord.svg'
+
+const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is the year of birth
+
 
 const whoIAm = 
   <div id="Info" class="anim">
@@ -14,13 +23,19 @@ const whoIAm =
 const whatIDo = 
   <div id="Info" class="anim">
     <p>I enjoy coding and learning new languages and tools on every new project.</p>
-    <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with React, scripts with Python and Discord bots in JavaScript</p>
+    <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with React, scripts with Python and Discord bots with JavaScript</p>
     <p>I also like hardware engineering, playing with Arduinos and Raspberry Pis and designing Circuit Boards with KiCad</p>
   </div>;
 
 const contactMe = 
-  <div id="Info" class="anim">
-    <a href="https://github.com/Devnol/" className="App-link">My GitHub</a>
+  <div id="Info" class="anim" style={{textAlign: "center"}}>
+    <div className="buttonArray">
+      <Social img={discord}  alt="Join my Discord Server (or find me as Devnol#9366)" href="https://discord.gg/MXZKx7de6M"/>
+      <Social img={github}  alt="Follow me on Github" href="https://github.com/Devnol"/>
+      <Social img={twitter} alt="Follow me on Twitter" href="https://twitter.com/DevnolPanos"/>
+      <Social img={hackclub}  alt="Check out my HackClub Scrapbook" href="https://scrapbook.hackclub.com/Devnol"/>
+      <Social img={youtube}  alt="Subscribe to my YouTube channel for occasional streams" href="https://scrapbook.hackclub.com/Devnol"/>
+    </div>
   </div>;
 
 function App() {
