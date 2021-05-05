@@ -3,7 +3,7 @@
   "description": "Devnol's personal website, written in ReactJS",
   "author": "Devnol <pgkoutsoumanis@gmail.com>",
   "repository": "https://github.com/devnol/devnol.github.io.git",
-  "version": "0.1.0",
+  "version": "1.0",
   "license": "MIT",
   "private": true,
   "main": "index.js",
