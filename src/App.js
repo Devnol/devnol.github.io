@@ -34,7 +34,7 @@ const contactMe =
       <Social img={github}  alt="Follow me on Github" href="https://github.com/Devnol"/>
       <Social img={twitter} alt="Follow me on Twitter" href="https://twitter.com/DevnolPanos"/>
       <Social img={hackclub}  alt="Check out my HackClub Scrapbook" href="https://scrapbook.hackclub.com/Devnol"/>
-      <Social img={youtube}  alt="Subscribe to my YouTube channel for occasional streams" href="https://scrapbook.hackclub.com/Devnol"/>
+      <Social img={youtube}  alt="Subscribe to my YouTube channel for occasional streams" href="https://www.youtube.com/channel/UClmSnMrllvKpiZQ79XmqznQ"/>
     </div>
   </div>;
 
