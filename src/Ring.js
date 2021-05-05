@@ -1,4 +1,4 @@
-import './Ring.css';
+import './styles/Ring.css';
 
 function Ring(props) {
   return(

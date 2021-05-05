@@ -1,5 +1,5 @@
 import React from 'react'
-import './Social.css'
+import './styles/Social.css'
 
 function Social({href, alt, img}) {
     return(
