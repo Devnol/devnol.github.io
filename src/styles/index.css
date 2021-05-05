@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Comfortaa';
-  src: local('Comfortaa'), url(./fonts/Comfortaa.ttf) format('truetype');
+  src: local('Comfortaa'), url(../fonts/Comfortaa.ttf) format('truetype');
   font-display: swap;
 }
 :root {
