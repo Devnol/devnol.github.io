@@ -11,6 +11,7 @@
 }
 
 .App-logo {
+  margin-top: 10vh;
   height: 20vmin;
   transition: all .5s ease-in-out;
 }
@@ -37,8 +38,11 @@
   margin-left: 20vw;
   margin-right: 20vw;
   text-align: left;
+  height: 60vh;
+  width: 60vw;
   opacity: 0;
   padding-top: 5vh;
+  padding-bottom: 0;
 }
 #Info > p {
   margin: 0;
@@ -64,9 +68,11 @@
     from {
       opacity: 0;
       padding-top: 5vh;
+      padding-bottom: 0;
     }
     to {
       opacity: 1;
       padding-top: 0;
+      padding-bottom: 5vh;
     }
 }
