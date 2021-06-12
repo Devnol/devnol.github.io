@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <footer>
-      <Ring prevLink="https://akisblack.tk" nextLink="https://odyssey346.github.io/"/>
+      <Ring prevLink="https://akisblack.tech" nextLink="https://odyssey346.github.io/"/>
       <p className="ossNotice">
         Made by Devnol with ❤️, ReactJS and GitHub pages. This site is open source, <a href="https://github.com/Devnol/devnol.github.io/" className="App-link">help improve it on GitHub</a>
       </p>
