@@ -39,11 +39,11 @@
 #Info {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  text-align: justify;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: center;
   height: 30vh;
-  width: 60vw;
+  width: 85vw;
   opacity: 0;
   padding-top: 5vh;
   padding-bottom: 0;
@@ -61,10 +61,12 @@
   animation-timing-function: ease-in-out;
 }
 
-@media (min-width: 1600mm) {
+@media (min-width: 160mm) {
   #Info {
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    width: 60vw;
+    text-align: justify;
   }
 }
 
@@ -78,11 +80,5 @@
       opacity: 1;
       padding-top: 0;
       padding-bottom: 5vh;
-    }
-}
-
-@media (max-width: 630px) {
-    #Info {
-        text-align: left;
     }
 }
