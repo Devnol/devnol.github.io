@@ -18,3 +18,9 @@
       margin: 0.5vw;
     }
   }
+
+@media (max-width: 630px) {
+    #Info > .buttonArray {
+        transform: translateX(-10%);
+    }
+}
