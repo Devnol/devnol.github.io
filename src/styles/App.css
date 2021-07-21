@@ -80,3 +80,9 @@
       padding-bottom: 5vh;
     }
 }
+
+@media (max-width: 630px) {
+    #Info {
+        text-align: left;
+    }
+}
