@@ -39,9 +39,7 @@
 #Info {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  margin-left: 20vw;
-  margin-right: 20vw;
-  text-align: justify;
+  text-align: left;
   height: 30vh;
   width: 60vw;
   opacity: 0;
@@ -61,10 +59,9 @@
   animation-timing-function: ease-in-out;
 }
 
-@media (min-width: 1600mm) {
+@media (min-width: 240mm) {
   #Info {
-    margin-left: 30vh;
-    margin-right: 30vh;
+    width: 40vw; 
   }
 }
 
