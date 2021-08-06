@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
-import Ring from './Ring';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <footer>
-      <Ring prevLink="https://akisblack.tech" nextLink="https://stephenvk.xyz"/>
       <p className="ossNotice">
-        Made by Devnol with ❤️, ReactJS and GitHub pages. This site is open source, <a href="https://github.com/Devnol/devnol.github.io/" className="App-link">help improve it on GitHub</a>
+        Made by Devnol with ❤️, ReactJS and GitHub Pages.
+        <br></br>This site is open source, <a href="https://github.com/Devnol/devnol.github.io/" className="App-link">help improve it on GitHub</a>
       </p>
     </footer>
   </React.StrictMode>,
