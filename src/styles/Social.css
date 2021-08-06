@@ -10,11 +10,11 @@
     padding: 1vh;
 }
 
-@media (min-width: 1600mm) {
+@media (min-width: 240mm) {
     .SocialButton {
-      width: 10vh;
-      height: 10vh;
+      width: 8vh;
+      height: 8vh;
       border-radius: 16px;
-      margin: 0.5vw;
+      margin: 1vw;
     }
   }

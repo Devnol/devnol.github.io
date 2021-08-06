@@ -40,3 +40,9 @@ footer {
   padding: 1vh;
   text-align: right; 
 }
+
+@media (min-width: 240mm) {
+  .ossNotice {
+    font-size: 2vh;
+  }
+}

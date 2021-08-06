@@ -15,7 +15,7 @@ const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is 
 
 const whoIAm = 
   <div id="Info" class="anim">
-    <p>I am a {currAge} year old student, born and raised in Greece.</p>
+    <p>I am a {currAge} year-old student, born and raised in Greece.</p>
     <p> I always liked  computers and loved learning about new technologies and playing around with both software and hardware.</p>
     <p> I'm a member of the <a href="https://hackropolis.club" className="App-link">Hackropolis</a> club, part of <a href="https://hackclub.com" className="App-link">Hack Club</a>, a nonprofit network of high school coding clubs and makers around the world.</p>
   </div>;
@@ -23,8 +23,8 @@ const whoIAm =
 const whatIDo = 
   <div id="Info" class="anim">
     <p>I enjoy coding and learning new languages and tools on every new project.</p>
-    <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with React, scripts with Python and Discord bots with JavaScript</p>
-    <p>I also like hardware engineering, playing with Arduinos and Raspberry Pis and designing Circuit Boards with KiCad</p>
+    <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with ReactJS, scripts with Python and Discord bots with JavaScript.</p>
+    <p>I also like hardware design, playing with microcontrollers and designing circuit boards with KiCad.</p>
   </div>;
 
 const contactMe = 
