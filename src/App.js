@@ -61,6 +61,7 @@ function App() {
           }, 100);}}> Contact Me </Button>
         </div>
         {info}
+        {/* TODO: Add a scroll prompt */}
     </div>
   );
 }
