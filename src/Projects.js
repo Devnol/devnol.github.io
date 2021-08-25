@@ -3,7 +3,7 @@ import './styles/Projects.css'
 
 function Project({project}) {
 	return(
-		<a href={project.url} target="_blank">
+		<a href={project.url} target="_blank" rel="noreferrer">
 		<div class="project">
 			<img id="projIcon" src={project.icon} alt={project.name}></img>
 			<h4 id="projTitle">{project.name}</h4>
