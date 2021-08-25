@@ -12,6 +12,7 @@ ReactDOM.render(
     <App />
     <Project project={projects.QuboRun}/>
     <Project project={projects.GeometrySlash}/>
+    <Project project={projects.SR74HC595Pico}/>
     <footer>
       <p className="ossNotice">
         Made by Devnol with ❤️, ReactJS and GitHub Pages.
