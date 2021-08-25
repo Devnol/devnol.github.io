@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './App';
+import Project from './Projects'
 import reportWebVitals from './reportWebVitals';
+
+import projects from './Projlist'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Project project={projects.QuboRun}/>
+    <Project project={projects.GeometrySlash}/>
+    <Project project={projects.SR74HC595Pico}/>
     <footer>
       <p className="ossNotice">
         Made by Devnol with ❤️, ReactJS and GitHub Pages.
