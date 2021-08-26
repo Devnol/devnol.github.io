@@ -62,7 +62,7 @@ function App() {
         </div>
         {info}
         {/* TODO: Add a scroll prompt */}
-        <div class="scroll-prompt"></div>
+        <div class="scroll-prompt"><b id="scrolltext">scroll down</b></div>
     </div>
   );
 }

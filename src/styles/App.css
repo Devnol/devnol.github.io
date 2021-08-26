@@ -134,3 +134,17 @@
     border-radius: 25px;
   } 
 }
+
+#scrolltext {
+  padding-top: 8.5vh;
+  position: absolute;
+  font-size: small;
+  left: -40%;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  #scrolltext {
+    padding-top: 10vh
+  }
+}
