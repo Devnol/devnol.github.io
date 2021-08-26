@@ -135,7 +135,7 @@
   } 
 }
 
-#scrolltext {
+#scrollText {
   padding-top: 8.5vh;
   position: absolute;
   font-size: small;
@@ -144,7 +144,7 @@
 }
 
 @media (max-width: 600px) {
-  #scrolltext {
+  #scrollText {
     padding-top: 10vh
   }
 }
