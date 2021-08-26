@@ -8,6 +8,8 @@
 
 .SocialButton > a > img {
     padding: 1vh;
+    width: 4vh;
+    height: 4vh;
 }
 
 @media (min-width: 240mm) {
@@ -16,5 +18,10 @@
       height: 8vh;
       border-radius: 16px;
       margin: 1vw;
+    }
+
+    .SocialButton > a > img {
+        width: 6vh;
+        height: 6vh;
     }
   }
