@@ -1,46 +1,44 @@
 .project {
 	color: white;
 	width: 85%;
-	/*height: 15vh;*/
 	border-radius: 16px;
 	margin: 5vh auto;
 	padding: 1vh 1vw;
-	background-color: var(--background-color);
-	display: grid;
-	grid-column-gap: 2vw;
-	grid-row-gap: 0;
-	border: 8px solid var(--background-color-lighter)
+	border: 8px solid var(--background-color-lighter);
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	line-height: 1em;
+	padding-inline-start: 5vw;
+}
+
+.container {
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
 }
 
 #projIcon {
-	grid-row-start: 1;
-	grid-row-end: 4;
-	align-self: center;
-	height: 15vh;
-	width: 15vh;
-	/*background-color: yellowgreen;*/
+	height: min(15vh, 20vw);
+	width: min(15vh, 20vw);
+	vertical-align: middle;
+	padding-left: 2vw;
 }
 
 #projTitle {
 	color: var(--primary-color);
 	font-weight: bold;
 	font-size: min(2vh, 15px);
-	/*background-color: slateblue;*/
 }
 
-
-#projDescr {
-	/*background-color: teal;*/
+#projDesc {
 	font-size: min(1.5vh, 12px);
-	grid-row-start: 2;
-	grid-row-end: 4;
 }
 
 #projMade {
 	font-size: 1vh;
-	/*background-color: tomato;*/
-	grid-column-start: 2;
-	grid-row-start: 4;
 }
 
 a {
@@ -50,7 +48,7 @@ a {
 
 @media (min-width: 240mm) {
 	.project {
-		width: 50%;
+		width: 60%;
 	}
 	
 	#projMade {
