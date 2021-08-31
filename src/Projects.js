@@ -9,8 +9,8 @@ function Project({project}) {
 			<div class="container">
 				<ul>
 					<li>
-						<a id="projTitle">{project.name}</a>
-						<h2 id="projDesc">{project.description}</h2>
+						<h4 id="projTitle">{project.name}</h4>
+						<p id="projDesc">{project.description}</p>
 						<p id="projMade">Made with: {project.lang}</p>
 					</li>
 				</ul>
