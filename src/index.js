@@ -10,6 +10,7 @@ import projects from './Projlist'
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Project project={projects.ProjectSegfault}/>
     <Project project={projects.QuboRun}/>
     <Project project={projects.GeometrySlash}/>
     <Project project={projects.SR74HC595Pico}/>
