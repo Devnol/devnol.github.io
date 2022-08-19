@@ -3,9 +3,9 @@ import '../styles/Projects.css'
 function Project({project}) {
 	return(
 		<a href={project.url} target="_blank" rel="noreferrer">
-		<div class="project">
+		<div className="project">
 			<img src={project.icon} id="projIcon" alt={project.name}></img>
-			<div class="container">
+			<div className="container">
 				<ul>
 					<li>
 						<h4 id="projTitle">{project.name}</h4>

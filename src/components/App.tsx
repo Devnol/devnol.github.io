@@ -2,7 +2,7 @@ import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import '../styles/App.css';
 import Social from './Social'
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 
 import github from '../assets/icons/github.svg'
 import twitter from '../assets/icons/twitter.svg'
