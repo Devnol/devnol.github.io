@@ -88,8 +88,8 @@
 }
 
 .scroll-prompt {
-  width: 40px;
-  height: 70px;
+  width: 10vw;
+  height: 10vh;
   margin-left: -20px;
   top: 93%;
   margin-top: -35px;
@@ -132,5 +132,7 @@
   }
   .scroll-prompt {
     border-radius: 25px;
+    width: 40px;
+    height: 70px;
   } 
 }
