@@ -16,8 +16,8 @@ const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is 
 const whoIAm = 
   <div id="Info" className="anim">
     <p>I am a {currAge} year-old student, born and raised in Greece.</p>
-    <p> I've always liked  computers and loved learning about new technologies and playing around with both software and hardware.</p>
-    <p> I am the Athens datacenter admin of <a href='https://projectsegfau.lt' className='App-link'>Project Segfault</a>, hosting all sorts of games and decentralised services.</p>
+    <p>I've always loved toying about with anything electromechanical, learning about new technologies and making stuff with my hands, ranging from building LEGO sets to repairing electronics.</p>
+    <p>I also enjoy playing videogames, especially old Nintendo titles, playing the guitar and travelling around the world.</p>
   </div>;
 
 const whatIDo = 

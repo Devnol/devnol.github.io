@@ -8,6 +8,7 @@ import Project from './components/Projects'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App />
+    <Project project={projects.miniRGBii}/>
     <Project project={projects.ProjectSegfault}/>
     <Project project={projects.QuboRun}/>
     <Project project={projects.GeometrySlash}/>
