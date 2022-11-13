@@ -1,16 +1,8 @@
 import QuboRun from "../assets/icons/QuboRun.png";
 import GeometrySlash from "../assets/icons/GeometrySlash.png";
 import ShiftReg from "../assets/icons/74HC595.png" //source: Fritzing parts library <https://github.com/fritzing/fritzing-parts/blob/develop/svg/core/breadboard/74HC595.svg>
-import Segfault from "../assets/icons/ProjectSegfault.png"
 
 const projects =  {
-  "ProjectSegfault": {
-    "name": "Project Segfault",
-    "description": "Selfhosted, decentralised services and game servers.",
-    "lang": "Unraid, Docker, Nginx",
-    "url": "https://projectsegfau.lt",
-    "icon": Segfault
-  },
   "QuboRun": {
     "name": "QuboRun",
     "description": "A cube running endlessly, trying to avoid obstacles.",
