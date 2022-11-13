@@ -1,34 +1,34 @@
-import logo from './logo.svg';
-import React, { useState } from 'react';
-import './styles/App.css';
+import logo from '../assets/logo.svg';
+import { useState } from 'react';
+import '../styles/App.css';
 import Social from './Social'
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button';
 
-import github from './icons/github.svg'
-import twitter from './icons/twitter.svg'
-import youtube from './icons/youtube.svg'
-import discord from './icons/discord.svg'
-import matrix from './icons/matrix.svg'
+import github from '../assets/icons/github.svg'
+import twitter from '../assets/icons/twitter.svg'
+import youtube from '../assets/icons/youtube.svg'
+import discord from '../assets/icons/discord.svg'
+import matrix from '../assets/icons/matrix.svg'
 
 const currAge = new Date().getFullYear() - 2007; //determine age, where 2007 is the year of birth
 
 
 const whoIAm = 
-  <div id="Info" class="anim">
+  <div id="Info" className="anim">
     <p>I am a {currAge} year-old student, born and raised in Greece.</p>
     <p> I've always liked  computers and loved learning about new technologies and playing around with both software and hardware.</p>
     <p> I am the Athens datacenter admin of <a href='https://projectsegfau.lt' className='App-link'>Project Segfault</a>, hosting all sorts of games and decentralised services.</p>
   </div>;
 
 const whatIDo = 
-  <div id="Info" class="anim">
+  <div id="Info" className="anim">
     <p>I enjoy coding and learning new languages and tools on every new project.</p>
     <p>I don't have a preferred language but I've tried several in projects such as games with Unity and C#, websites with ReactJS, Wii Homebrew, Arduino/RP2040 projects with C/C++ and Discord bots with JavaScript.</p>
     <p>I also like hardware design, playing with microcontrollers and designing circuit boards with KiCad.</p>
   </div>;
 
 const contactMe = 
-  <div id="Info" class="anim" style={{textAlign: "center"}}>
+  <div id="Info" className="anim" style={{textAlign: "center"}}>
     <div className="buttonArray">
       <Social img={discord}  alt="Join my Discord Server (or find me as Devnol#9366)" href="https://discord.gg/MXZKx7de6M"/>
       <Social img={matrix}  alt="Find me on the Matrix universe" href="https://matrix.to/#/@devnol:projectsegfau.lt"/>
@@ -39,7 +39,7 @@ const contactMe =
   </div>;
 
 function App() {
-  const [info, changeInfo] = useState(<div id="Info" class="anim"></div>);
+  const [info, changeInfo] = useState(<div id="Info" className="anim"></div>);
   return (
     <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
@@ -61,8 +61,7 @@ function App() {
           }, 100);}}> Contact Me </Button>
         </div>
         {info}
-        {/* TODO: Add a scroll prompt */}
-        <div class="scroll-prompt"></div>
+        <div className="scroll-prompt"></div>
     </div>
   );
 }
